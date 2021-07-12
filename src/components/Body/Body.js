@@ -11,20 +11,7 @@ function Body() {
   return (
     <div className="body">
       {allProducts.map((item) => {
-        const {
-          imageURL,
-          title,
-          description,
-          price,
-          mrp,
-          discount,
-          itemId,
-          brand,
-          rating,
-          category,
-          gender,
-          sizes,
-        } = item;
+        const { imageURL, title, description, mrp, itemId } = item;
         return (
           <div className="card" key={itemId}>
             <div className="card_img">
