@@ -1,0 +1,64 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px 20px 50px;
+  box-sizing: border-box;
+  flex: 0.8;
+}
+
+.card {
+  position: relative;
+  /* background-color: #373b69; */
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 10%);
+  overflow: hidden;
+  margin: 5px;
+  width: calc(16.66667vw - 17.5px);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.card_img > img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.card_header {
+  padding: 20px;
+  line-height: 4vh;
+}
+
+.price {
+  display: flex;
+}
+
+.actPrice,
+.disPrice,
+.disPercent {
+  margin-right: 5px;
+}
+
+.disPrice {
+  text-decoration: line-through;
+}
+
+.actPrice {
+  font-weight: 700;
+}
+
+.addToCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 8px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  width: 98%;
+  border: none;
+  float: left;
+  background: #ff9f00;
+  color: #fff;
+  margin-top: 20px;
+}

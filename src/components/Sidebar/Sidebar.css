@@ -1,0 +1,33 @@
+.sidebar {
+  border: 1px solid black;
+  height: 100vh;
+  flex: 0.2;
+}
+
+.filter_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.filter_title > span {
+  cursor: pointer;
+  color: #2b74f0;
+}
+
+.filter_container > div {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.filter_container > span {
+  font-size: 12px;
+  color: #2b74f0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sortContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
